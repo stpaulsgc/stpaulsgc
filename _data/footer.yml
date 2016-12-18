@@ -1,0 +1,10 @@
+# Footer navigation links
+ 
+- title: Parish News
+  url: /parish/
+
+- title: School News
+  url: /school/
+
+- title: About Us
+  url: /about/

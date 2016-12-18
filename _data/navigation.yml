@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Parish News
+  url: /parish/
+  excerpt: "All news related to parish issues"
+  image: lukejohn-rect.jpg
+
+- title: School News
+  url: /school/
+  excerpt: "All news related to school issues"
+  image: librar-rect.jpg  
+
+- title: About Us
+  url: /about/
+  excerpt: "All about us."
+  image: lukejohn-rect.jpg    

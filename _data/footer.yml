@@ -1,10 +1,16 @@
 # Footer navigation links
  
-- title: Parish News
+- title: Parish
   url: /parish/
 
-- title: School News
+- title: Outreach
+  url: /outreach/
+
+- title: Music
+  url: /music/
+  
+- title: School
   url: /school/
 
-- title: About Us
-  url: /about/
+- title: Contact Us
+  url: /contact/

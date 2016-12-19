@@ -1,42 +1,79 @@
 ---
 layout: home
 permalink: /
-title: "Latest Posts"
 image:
   feature: lukejohn-500.jpg
 ---
 
-Type here my really cool ideas!!!
-
+<div class="page-title">
+<h1>Join us</h1>
+</div>
 
 <div class="tiles">
-{% for post in site.posts %}
- {% if forloop.index0 <= 3 %}
-	{% include post-grid.html %}
+
+  <div class="tile">
+    <img src="./images/nochurch1.jpg" width="300" height="300" />
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    <b>Sunday Worship Schedule</b>
+    <p class="post-excerpt">
+      <b>8am</b> – Holy Eucharist <br>
+      <b>10am</b> – Holy Eucharist with Choir <br>
+      <b>11am</b> - Coffee Hour
+    </p>
+    <b>Wednesday Worship Schedule</b>
+    <p class="post-excerpt">
+      <b>12pm (noon)</b> - Eucharist and Healing Service
+    </p>
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    <b>Christmas Eve Services</b>
+    <p class="post-excerpt">
+      <b>5pm</b> - Christmas Family Eucharist <br>
+      <b>10:45pm</b> - Choral Music <br>
+      <b>11pm</b> - Festival Celebration of the Nativity of our Lord
+    </p>
+    <b>Christmas Day Service</b>
+    <p class="post-excerpt">
+      <b>9am</b> - Holy Eucharist <br>
+    </p>
+  </div><!-- /.tile -->
+
+  <div class="tile">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3017.333498607436!2d-73.62985887204385!3d40.86455485368168!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x318eba7840586f2d!2sSt+Paul&#39;s+Episcopal+Church!5e0!3m2!1sen!2sus!4v1482092682963" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe><br><br><br><br><br>
+  </div><!-- /.tile -->
+
+</div><!-- /.tiles -->
+
+<div class="page-title">
+<h1>Latest News</h1>
+</div>
+
+<div class="tiles">
+{% for post in site.categories.parish %}
+ {% if forloop.index0 <= 0 %}
+  {% include post-grid.html %}
+ {% endif %}
+{% endfor %}
+
+{% for post in site.categories.outreach %}
+ {% if forloop.index0 <= 0 %}
+  {% include post-grid.html %}
+ {% endif %}
+{% endfor %}
+
+{% for post in site.categories.music %}
+ {% if forloop.index0 <= 0 %}
+  {% include post-grid.html %}
+ {% endif %}
+{% endfor %}
+
+{% for post in site.categories.school %}
+ {% if forloop.index0 <= 0 %}
+  {% include post-grid.html %}
  {% endif %}
 {% endfor %}
 </div><!-- /.tiles -->
 
-<div class="tiles">
-
-<div class="tile">
-  <h2 class="post-title">Fixed Content 1</h2>
-  <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Fixed Content 2</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Fixed Content 3</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Fixed Content 4</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
-</div><!-- /.tile -->
-
-</div><!-- /.tiles -->

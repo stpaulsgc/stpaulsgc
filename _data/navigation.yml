@@ -1,16 +1,26 @@
 # Site navigation links
 
-- title: Parish News
+- title: Parish
   url: /parish/
   excerpt: "All news related to parish issues"
   image: lukejohn-rect.jpg
 
-- title: School News
+- title: Outreach
+  url: /outreach/
+  excerpt: "Community Outreach"
+  image: lukejohn-rect.jpg
+
+- title: Music
+  url: /music/
+  excerpt: "Music concerts and more"
+  image: lukejohn-rect.jpg
+
+- title: School
   url: /school/
   excerpt: "All news related to school issues"
   image: librar-rect.jpg  
 
-- title: About Us
-  url: /about/
+- title: Contact us
+  url: /Contact/
   excerpt: "All about us."
   image: lukejohn-rect.jpg    

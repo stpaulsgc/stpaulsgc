@@ -75,5 +75,11 @@ image:
   {% include post-grid.html %}
  {% endif %}
 {% endfor %}
+
+<div class="tile">
+  <h2 class="post-title"><a href="./epistle/Dec16Epis.pdf">December 2016 Epistle</a></h2>
+  <p class="post-excerpt">Recent news and upcoming events at St. Paul's.</p>
+</div><!-- /.tile -->
+
 </div><!-- /.tiles -->
 
